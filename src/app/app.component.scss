@@ -1,0 +1,13 @@
+:host {
+  display: block;
+  height: 100%;
+
+  .board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+
+    width: fit-content;
+    margin: auto;
+  }
+}
